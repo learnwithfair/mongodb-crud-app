@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "6635b1a5e77f0018a5704194"
+  },
+  "id": "9ec8825d-84bd-4f9a-ade0-00d58d8fa5d1",
+  "title": "Laptop-840 4th Generation",
+  "price": 58000,
+  "createdAt": {
+    "$date": "2024-05-04T03:55:17.257Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6635b2c5e77f0018a570419e"
+  },
+  "id": "2bc3415d-fb20-438d-9735-c36f89e2b7e2",
+  "title": "IPhone-840 14th Generation",
+  "price": 78000,
+  "createdAt": {
+    "$date": "2024-05-04T04:00:05.033Z"
+  },
+  "__v": 0
+}]

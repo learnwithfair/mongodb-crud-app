@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "20219152-4727-43e6-a25a-9b81157fed53",
+		"name": "mongodb-crud-app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28423782"
+	},
+	"item": [
+		{
+			"name": "add-products",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "IPhone-840 4th Generation",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "78000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8001/api/products/add-product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"api",
+						"products",
+						"add-product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update-products",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "IPhone-840 14th Generation",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "78000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8001/api/products/2bc3415d-fb20-438d-9735-c36f89e2b7e2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"api",
+						"products",
+						"2bc3415d-fb20-438d-9735-c36f89e2b7e2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8001/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8001/api/products/2bc3415d-fb20-438d-9735-c36f89e2b7e2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"api",
+						"products",
+						"2bc3415d-fb20-438d-9735-c36f89e2b7e2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete-product",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8001/api/products/f85680f5-1090-4acc-bddb-1296082151ef",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"api",
+						"products",
+						"f85680f5-1090-4acc-bddb-1296082151ef"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
